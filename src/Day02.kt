@@ -2,7 +2,7 @@ import kotlin.math.absoluteValue
 import kotlin.math.sign
 
 fun main() {
-    val input = readInput("Day02")
+    val input = readInputLines("Day02")
 
     fun isSafe(report: List<Int>): Boolean {
         val zipped = report.zipWithNext()

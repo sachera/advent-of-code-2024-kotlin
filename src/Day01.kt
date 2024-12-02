@@ -2,7 +2,7 @@ import kotlin.math.absoluteValue
 
 fun main() {
     // Or read a large test input from the `src/Day01_test.txt` file:
-    val (listA, listB) = readInput("Day01").map {
+    val (listA, listB) = readInputLines("Day01").map {
         val (fst,snd) = it.split("\\s+".toRegex())
         Pair(fst.toInt(),snd.toInt())
     }.unzip()
